@@ -1,5 +1,5 @@
 # FGI-Matting
-The official repository for Deep Image Matting with Flexible Guidance Input
+The official repository for Deep Image Matting with Flexible Guidance Input.
 
 
 Code is coming soon.
