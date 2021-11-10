@@ -1,0 +1,8 @@
+easydict
+numpy
+opencv-python
+Pillow
+PyQt5
+scikit-image
+toml
+torch>=1.5.0

@@ -1,0 +1,37 @@
+# Refer to utils/config.py for definition and options.
+# only dim dataset
+version = "FGI_matting"
+dist = true
+
+[model]
+    [model.arch]
+    encoder = "res_shortcut_encoder_29_spatial_attn"
+    decoder = "res_shortcut_decoder_22_spatial_attn"
+
+
+[log]
+logging_path = "./logs/logging"
+
+
+[test]
+#DIM
+test_merged = "/path_to_DIM/test/merged"
+test_alpha = "/path_to_DIM/test/alpha_copy"
+test_trimap = "/path_to_DIM/test/trimaps"
+test_clickmap =  "/path_to_DIM/test/DIM_test_click"
+test_scribblemap = "/path_to_DIM/test/DIM_test_scribble"
+
+#D-646
+#test_merged = "/path_to_Distinctions-646/Test/Distinctions-646_test_1K/Image"
+#test_alpha = "/path_to_Distinctions-646/Test/Distinctions-646_test_1K/GT"
+#test_trimap = "/path_to_Distinctions-646/Test/Distinctions-646_test_1K/Trimap"
+#test_clickmap = "/path_to_Distinctions-646/Test/Distinctions-646_test_1K/Clickmap"
+#test_scribblemap = "/path_to_Distinctions-646/Test/Distinctions-646_test_1K/Scribblemap"
+
+#choose guidancemap to evaluate, "trimap","scribblemap","clickmap" or "No_guidance"
+guidancemap_phase = "trimap"
+
+checkpoint = "Weight_DIM"
+fast_eval = true
+# Uncomment to save predicted alpha
+alpha_path = "./alpha_pred"
