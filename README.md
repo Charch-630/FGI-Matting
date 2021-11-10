@@ -41,25 +41,23 @@ Edit `./config/FGI_config` to modify the path of the testset and choose the chec
 | Clickmap test   | 34.67 | 0.0112 | 15.45 | 30.96 |
 | No guidance test   | 36.36   | 0.0141 | 15.23 | 32.76 |
 
-`"checkpoint"` in `./config/FGI_config` should be "Weight_DIM".
-
-`bash test.sh`
-
-Modify `"guidancemap_phase"` in `./config/FGI_config` to test on trimap, scribblemap, clickmap and No_guidance
+`"checkpoint"` in `./config/FGI_config` should be "Weight_DIM".  
+`bash test.sh`  
+Modify `"guidancemap_phase"` in `./config/FGI_config` to test on trimap, scribblemap, clickmap and No_guidance.  
+For further test, please use the code in `./DIM_evaluation_code` and the predicted alpha mattes in `./alpha_pred`.
 
 ## Test on Distinctions-646 test set(Not appear in the paper)
 
-`"checkpoint"` in `./config/FGI_config` should be "Weight_D646".
-
-`bash test.sh`
-
-Modify `"guidancemap_phase"` in `./config/FGI_config` to test on trimap, scribblemap, clickmap and No_guidance
+`"checkpoint"` in `./config/FGI_config` should be "Weight_D646".  
+`bash test.sh`  
+Modify `"guidancemap_phase"` in `./config/FGI_config` to test on trimap, scribblemap, clickmap and No_guidance.  
+For further test, please use the code in `./DIM_evaluation_code` and the predicted alpha mattes in `./alpha_pred`.
 
 ## The QT Demo
 
 Copy one of the pth file and rename it `"Weight_qt_in_use.pth"`, also place it in `./checkpoints`.  
-Run `test_one_img_qt.py`  
-Try images in `./testimg`
+Run `test_one_img_qt.py`. 
+Try images in `./testimg`. It will use GPU if avaliable, otherwise it will use CPU.
 
 ![demo](https://user-images.githubusercontent.com/52871875/141114024-7c69d0d8-19ba-4698-a0c3-22213869cf38.png)
 
