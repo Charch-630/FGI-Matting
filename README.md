@@ -17,6 +17,7 @@ Paper:  https://arxiv.org/abs/2110.10898
   - scipy
   - toml
   - torch>=1.5.0
+  - torchvision
  
 ## Models and supplementary data for DIM test set(Composition-1k) and Distinctions-646 test set
 Google drive: https://drive.google.com/drive/folders/13qnlXUSKS5HfkfvzdMKAv7FvJ6YV_wPK?usp=sharing  
