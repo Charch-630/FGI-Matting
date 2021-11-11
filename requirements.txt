@@ -4,5 +4,6 @@ opencv-python
 Pillow
 PyQt5
 scikit-image
+scipy
 toml
 torch>=1.5.0
