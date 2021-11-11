@@ -59,7 +59,7 @@ Copy one of the pth file and rename it `"Weight_qt_in_use.pth"`, also place it i
 Run `test_one_img_qt.py`. 
 Try images in `./testimg`. It will use GPU if avaliable, otherwise it will use CPU.
 
-![demo](https://user-images.githubusercontent.com/52871875/141114024-7c69d0d8-19ba-4698-a0c3-22213869cf38.png)
+![demo](https://user-images.githubusercontent.com/52871875/141238176-2020b881-0177-4d2d-b8f3-d823442aed7e.png)
 
 Have fun :D
 
