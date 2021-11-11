@@ -7,3 +7,4 @@ scikit-image
 scipy
 toml
 torch>=1.5.0
+torchvision
