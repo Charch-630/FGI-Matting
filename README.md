@@ -12,6 +12,7 @@ Paper:  https://arxiv.org/abs/2110.10898
   - Pillow
   - PyQt5
   - scikit-image
+  - scipy
   - toml
   - torch>=1.5.0
  
