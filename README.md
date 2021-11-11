@@ -3,6 +3,8 @@ The official repository for Deep Image Matting with Flexible Guidance Input.
 
 Paper:  https://arxiv.org/abs/2110.10898
 
+![image](https://github.com/Charch-630/FGI-Matting/blob/main/gif/demo_gif.gif?raw=true) 
+
 ![all](https://user-images.githubusercontent.com/52871875/141040506-02393e89-1f46-4578-a0ad-545d23158c4f.png)
 
 ## Requirements
