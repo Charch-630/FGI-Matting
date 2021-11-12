@@ -52,6 +52,13 @@ For further test, please use the code in `./DIM_evaluation_code` and the predict
 
 ## Test on Distinctions-646 test set(Not appear in the paper)
 
+| Methods  | SAD | MSE | Grad | Conn |
+| :----------: | :-----------:| :-----------:| :-----------:| :-----------:|
+| Trimap test   | 28.90 | 0.0105 | 24.67 | 27.40 |
+| Scribblemap test   | 33.22 | 0.0131 | 26.93 | 31.38 |
+| Clickmap test   | 34.97 | 0.0146 | 27.60 | 33.11 |
+| No guidance test   | 36.83 | 0.0156 | 28.28 | 34.90 |
+
 `"checkpoint"` in `./config/FGI_config` should be "Weight_D646".  
 `bash test.sh`  
 Modify `"guidancemap_phase"` in `./config/FGI_config` to test on trimap, scribblemap, clickmap and No_guidance.  
