@@ -72,6 +72,7 @@ Try images in `./testimg`. It will use GPU if avaliable, otherwise it will use C
 
 ![demo](https://user-images.githubusercontent.com/52871875/141238176-2020b881-0177-4d2d-b8f3-d823442aed7e.png)
 
+I recommend to use the one trained on DIM dataset.  
 Have fun :D
 
 ## Acknowledgment
