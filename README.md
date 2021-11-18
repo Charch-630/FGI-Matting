@@ -45,9 +45,9 @@ Edit `./config/FGI_config` to modify the path of the testset and choose the chec
 | Clickmap test   | 34.67 | 0.0112 | 15.45 | 30.96 |
 | No guidance test   | 36.36   | 0.0141 | 15.23 | 32.76 |
 
-`"checkpoint"` in `./config/FGI_config` should be "Weight_DIM".  
+`"checkpoint"` in `./config/FGI_config.toml` should be "Weight_DIM".  
 `bash test.sh`  
-Modify `"guidancemap_phase"` in `./config/FGI_config` to test on trimap, scribblemap, clickmap and No_guidance.  
+Modify `"guidancemap_phase"` in `./config/FGI_config.toml` to test on trimap, scribblemap, clickmap and No_guidance.  
 For further test, please use the code in `./DIM_evaluation_code` and the predicted alpha mattes in `./alpha_pred`.
 
 ## Test on Distinctions-646 test set(Not appear in the paper)
@@ -59,9 +59,9 @@ For further test, please use the code in `./DIM_evaluation_code` and the predict
 | Clickmap test   | 34.97 | 0.0146 | 27.60 | 33.11 |
 | No guidance test   | 36.83 | 0.0156 | 28.28 | 34.90 |
 
-`"checkpoint"` in `./config/FGI_config` should be "Weight_D646".  
+`"checkpoint"` in `./config/FGI_config.toml` should be "Weight_D646".  
 `bash test.sh`  
-Modify `"guidancemap_phase"` in `./config/FGI_config` to test on trimap, scribblemap, clickmap and No_guidance.  
+Modify `"guidancemap_phase"` in `./config/FGI_config.toml` to test on trimap, scribblemap, clickmap and No_guidance.  
 For further test, please use the code in `./DIM_evaluation_code` and the predicted alpha mattes in `./alpha_pred`.
 
 ## The QT Demo
